@@ -29,7 +29,7 @@ export const MovingCursor = () => {
     setTimeout(() => {
       circleRef.current.style.left = e.clientX + "px";
       circleRef.current.style.top = e.clientY + "px";
-    }, 150);
+    }, 0);
     // console.log(e.clientX, e.clientY);
   };
   return (
