@@ -1,9 +1,10 @@
-import "./App.css";
 import { Parent } from "./ChildToParent";
 import ImageSlider from "./ImageSlider";
 import Loading from "./Loading";
+import Modal from "./Modal";
 import { MovingCursor } from "./MovingCursor";
 import Timer from "./Timer";
+import "./App.css";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <Parent /> */}
       {/* <MovingCursor /> */}
       {/* <Loading /> */}
-      <ImageSlider />
+      {/* <ImageSlider /> */}
+      <Modal />
     </>
   );
 }

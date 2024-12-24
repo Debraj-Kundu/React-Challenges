@@ -1,21 +1,44 @@
-.App {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  /* height: 80vh; */
-}
-
-img {
+/* Modal 👇 */
+.popup-container {
   width: 100%;
   height: 100vh;
-  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(white, rgba(92, 92, 92, 0.5) 100%);
 }
 
-button {
-  position: absolute;
-  cursor: pointer;
+.popup-div {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
-.right {
-  right: 0;
+.close {
+  width: 100%;
+  display: flex;
+  justify-content: start;
 }
+
+.text {
+  display: flex;
+  text-align: center;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+.modal-div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal 👆 */
